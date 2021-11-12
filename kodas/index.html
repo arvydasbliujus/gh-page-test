@@ -7,10 +7,82 @@
   <title>Kodas</title>
 </head>
 <body>
-  <h1>Kodas</h1>
-  <br>
-  <br>
-  <br>
-  <a href=""></a>
+  <h1>CSS kodas</h1>
+
+  <pre>
+    * {
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+  }
+  
+  body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      color: #1c1c1c;
+      font-family: "Roboto", sans-serif;
+  }
+  
+  nav {
+      height: 100vh;
+      background: #eee;
+      flex-basis: 16rem;
+      border-right: 2px solid #dedede;
+  }
+  
+  nav header,
+  section header {
+     padding: .5rem 2rem;
+     font-size: 1.8rem; 
+  }
+  
+  nav ul {
+      padding-left: 0;
+      margin: 0;
+  }
+  
+  nav li {
+      list-style: none;
+      border-top: 2px solid #dedede;
+      padding: .5rem 0;
+  }
+  
+  nav a {
+      text-decoration: none;
+      margin: 2.8rem;
+      color: #1c1c1c;
+      font-weight: 300;
+  }
+  
+  main {
+      background: #fdfdfd;
+      flex: 1;
+      height: 100vh;
+      width: 100%;
+      overflow-y: scroll;
+  }
+  
+  h1,
+  h2,
+  h3 {
+      font-weight: 400;
+  }
+  
+  h2 {
+      margin-top: 1rem;
+  }
+  
+  section h2 {
+      margin-top: 2rem;
+  }
+  
+  p {
+      padding: 0 .8rem;
+      line-height: 1.6;
+      font-weight: 300;
+      font-size: 1rem;
+  }
+  </pre>
+ 
 </body>
 </html>
