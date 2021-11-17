@@ -90,6 +90,7 @@ pre {
   background: $light-grey;
   padding: 1.5rem 0;
   width: 60%;
+  min-width: 18rem;
   font-size: .7rem;
 }
 
@@ -107,4 +108,10 @@ pre {
     &-midi {
       width: 70%;
     }
+}
+
+@media only screen and (max-width: 40rem) {
+  img {
+    width: 95%;
+  }
 }
