@@ -19,8 +19,7 @@ header {
   top: 0;
   background: $light-grey;
   box-shadow: 0 2px 8px rgba(0, 0, 0, .2);
-  margin-bottom: 2rem;
-  padding-bottom: 0.8rem;
+  padding-bottom: 0.3rem;
   width: 100%; 
   transition: 0.5s; 
   
@@ -36,6 +35,7 @@ main {
 h1 {
   margin: 0;
   padding-top: 0.5rem;
+  font-size: 1.8rem;
 }
 
 a {
@@ -110,10 +110,21 @@ pre {
     }
 }
 
+.mt-3 {
+  padding-top: 3rem;
+}
+
+.inline-block {
+  display: inline-block;
+}
+.top {
+  vertical-align: top;
+}
+
 @media only screen and (max-width: 40rem) {
 
   .lesson-body {
-    margin-top: 10rem;
+    margin-top: 9rem;
   
   }
   img {
