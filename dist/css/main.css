@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 3rem 0 0;
+  padding: 0 0 150px 0;
+}
+
+html {
+  font-size: 1.5rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  background: #f1f1f1;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  margin-bottom: 2rem;
+  padding-bottom: 0.8rem;
+  width: 100%;
+  transition: 0.5s;
+}
+
+header h1, header a {
+  margin-left: 5%;
+}
+
+main {
+  padding-left: 5%;
+}
+
+h1 {
+  margin: 0;
+  padding-top: 0.5rem;
+}
+
+a {
+  text-decoration: none;
+  background: #00008b;
+  color: #f1f1f1;
+  padding: 0 7px;
+}
+
+a:hover {
+  background: #2525ff;
+}
+
+p {
+  line-height: 1.8;
+}
+
+hr {
+  color: #f1f1f1;
+  width: 80%;
+  float: left;
+}
+
+ul, ol {
+  max-width: 1000px;
+  padding: 0.5rem;
+  list-style-position: inside;
+}
+
+ul li, ol li {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 1.8;
+  padding: 0.5rem 0 0.5rem 1rem;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+ul li span, ol li span {
+  vertical-align: top;
+  font-size: .8rem;
+}
+
+ul li img, ol li img {
+  margin-top: 0.5rem;
+}
+
+ul li {
+  list-style: none;
+}
+
+pre {
+  background: #f1f1f1;
+  padding: 1.5rem 0;
+  width: 60%;
+  font-size: .7rem;
+}
+
+.img {
+  display: block;
+  min-width: 420px;
+}
+
+.img-mini {
+  width: 40%;
+}
+
+.img-midi {
+  width: 70%;
+}
+/*# sourceMappingURL=main.css.map */

@@ -5,113 +5,29 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Kodas</title>
-  <style>
-    html {
-      font-size: 1.5rem;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
-  </style>
+  <script src="./assets/js/main.js" defer></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="../dist/css/main.css">
 </head>
 <body>
-  <h1>Top secret!</h1>
+  <header>
+    <h1 class="header">Top secret!</h1>
+  </header>
+  <main>
+    <ul>
+      <li><a href="./lesson-10-29/index.html"><i class="bi bi-arrow-right-circle"></i> 10.29 d. būrelio pamoka</a></li>
+      <li><a href="#"><i class="bi bi-arrow-right-circle"></i> 11.12 d. būrelio pamoka jau greitai bus įkelta</a></li>
+      <!-- <li><a href="./lesson-11-12/index.html"><i class="bi bi-arrow-right-circle"></i> 10.29 d. būrelio pamoka</a></li> -->
 
-  <h2>Užduotis:</h2>
-  <ol>
-    <li>Terminale su komanda <strong>(cd)</strong> nueiti į <strong>Desktop</strong> direktoriją</li>
-    <li>Desktop'e su komanda <strong>(mkdir)</strong> sukurti aplanką/folderį pavadinimu <strong>mano_aplankas</strong></li>
-    <li>Su komanda <strong>(cd)</strong> nueiti į savo sukurtą aplanką/folderį</li>
-    <li>Su komanda <strong>(code . )</strong> atidaryti savo aplanką/folderį su Visual Studio Code programa. (Jeigu neatidaro kviesti mokytoją)</li>
-    <li>Visual Studio Code programoje sukurti file'ą pavadinimu <strong>index.html</strong> ir tame file sukurti <strong>HTML skiletą</strong>. Išsaugoti file'ą</li>
-    <li>Index.html file'o tag'e <strong><code>&lt;title&gt; &lt;/title&gt; </code></strong>pakeisti pavadinimą į Mano aplankas.</li>
-    <li>Index.html file'o tag'e <strong><code>&lt;body&gt; &lt;/body&gt;</code></strong> sukurti tag'ą <strong><code>&lt;h1&gt; &lt;/h1&gt;</code></strong> ir jame parašyti savo vardą ir žodį aplankas pvz.: <strong>Lino aplankas</strong> ir išsaugoti</li>
-    <li>Visual Studio Code programoje sukurti aplanką/folderį pavadinimu <strong>css</strong></li>
-    <li>Visual Studio Code programoje <strong>css</strong> aplanke/folderyje sukurti file'ą pavadinimu <strong>main.css</strong></li>
-    <li><strong>index.html</strong> file sujungti <strong>index.html</strong> ir <strong>main.css</strong> file'us <strong>hint:<code>(link:css)</code></strong></li>
-    <li><strong>main.css</strong> file parašyti komandą, kuri pakeistų tag'o <strong>html</strong> (foną) <strong>background'ą</strong> į raudoną</li>
-    <li><strong>main.css</strong> file parašyti komandą, kuri pakeistų tag'o <strong>h1</strong> (spalvą) <strong>color</strong> į baltą</li>
-    <li>Parodyti savo rezultatą naršyklėje</li>
-  </ol>
+    </ul>
+  </main>
+  
   <br>
   <br>
   <h2>Mano gavosi toks :)</h2>
-  <img src="./img/demo.png" alt="Demo">
+  <img src="./assets/img/demo.png" alt="Demo">
   <hr>
   <h2>II pamokos CSS kodas</h2>
-
-  <pre>
-    * {
-      box-sizing: border-box;
-      scroll-behavior: smooth;
-  }
-  
-  body {
-      margin: 0;
-      padding: 0;
-      display: flex;
-      color: #1c1c1c;
-      font-family: "Roboto", sans-serif;
-  }
-  
-  nav {
-      height: 100vh;
-      background: #eee;
-      flex-basis: 16rem;
-      border-right: 2px solid #dedede;
-  }
-  
-  nav header,
-  section header {
-     padding: .5rem 2rem;
-     font-size: 1.8rem; 
-  }
-  
-  nav ul {
-      padding-left: 0;
-      margin: 0;
-  }
-  
-  nav li {
-      list-style: none;
-      border-top: 2px solid #dedede;
-      padding: .5rem 0;
-  }
-  
-  nav a {
-      text-decoration: none;
-      margin: 2.8rem;
-      color: #1c1c1c;
-      font-weight: 300;
-  }
-  
-  main {
-      background: #fdfdfd;
-      flex: 1;
-      height: 100vh;
-      width: 100%;
-      overflow-y: scroll;
-  }
-  
-  h1,
-  h2,
-  h3 {
-      font-weight: 400;
-  }
-  
-  h2 {
-      margin-top: 1rem;
-  }
-  
-  section h2 {
-      margin-top: 2rem;
-  }
-  
-  p {
-      padding: 0 .8rem;
-      line-height: 1.6;
-      font-weight: 300;
-      font-size: 1rem;
-  }
-  </pre>
  
 </body>
 </html>
