@@ -107,6 +107,9 @@ pre {
 }
 
 @media only screen and (max-width: 40rem) {
+  body {
+    margin-top: 4rem 0 0;
+  }
   img {
     width: 95%;
   }
