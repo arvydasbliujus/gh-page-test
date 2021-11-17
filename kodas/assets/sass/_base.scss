@@ -58,6 +58,9 @@ hr {
   width: 80%;
   float: left;
 }
+img {
+  margin-top: 0.5rem;
+}
 
 ul, ol {
   max-width: 1000px;
@@ -73,10 +76,6 @@ ul, ol {
     span {
       vertical-align: top;
       font-size: .8rem;
-    }
-
-    img {
-      margin-top: 0.5rem;
     }
   }
 }
@@ -95,9 +94,10 @@ pre {
 }
 
 .img {
-    width: 100%;
-    display: block;
+    height: auto;
+    width: 95%;
     min-width: 320px;
+    display: block;
 
     &-mini {
       width: 40%;

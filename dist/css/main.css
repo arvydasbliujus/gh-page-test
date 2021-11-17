@@ -57,6 +57,10 @@ hr {
   float: left;
 }
 
+img {
+  margin-top: 0.5rem;
+}
+
 ul, ol {
   max-width: 1000px;
   padding: 0.5rem;
@@ -75,10 +79,6 @@ ul li span, ol li span {
   font-size: .8rem;
 }
 
-ul li img, ol li img {
-  margin-top: 0.5rem;
-}
-
 ul li {
   list-style: none;
 }
@@ -91,9 +91,10 @@ pre {
 }
 
 .img {
-  width: 100%;
-  display: block;
+  height: auto;
+  width: 95%;
   min-width: 320px;
+  display: block;
 }
 
 .img-mini {
