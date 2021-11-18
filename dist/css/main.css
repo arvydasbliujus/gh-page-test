@@ -23,14 +23,10 @@ header {
   transition: 0.5s;
 }
 
-header h1, header a {
-  margin-left: 3%;
-}
-
 main {
-  padding-left: 3%;
   overflow-y: scroll;
   max-width: 1200px;
+  margin: auto;
 }
 
 h1 {
@@ -121,6 +117,11 @@ pre {
   vertical-align: top;
 }
 
+.div-center {
+  max-width: 1200px;
+  margin: auto;
+}
+
 footer {
   padding: 0.2rem 0;
   display: flex;
@@ -143,18 +144,19 @@ footer a {
 }
 
 .left-side {
-  width: 50%;
+  width: 35%;
   float: left;
 }
 
 .right-side {
   float: right;
-  width: 50%;
+  width: 65%;
   position: fixed;
 }
 
 .right-side img {
-  height: 75vh;
+  position: relative;
+  width: 60%;
 }
 
 /************ media queries ***************/
