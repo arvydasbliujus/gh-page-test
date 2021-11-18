@@ -182,5 +182,8 @@ footer a {
   .right-side {
     text-align: center;
   }
+  .right-side img {
+    width: 90%;
+  }
 }
 /*# sourceMappingURL=main.css.map */
