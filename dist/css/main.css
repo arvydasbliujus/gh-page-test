@@ -24,12 +24,13 @@ header {
 }
 
 header h1, header a {
-  margin-left: 5%;
+  margin-left: 3%;
 }
 
 main {
-  padding-left: 5%;
+  padding-left: 3%;
   overflow-y: scroll;
+  max-width: 1200px;
 }
 
 h1 {
@@ -120,15 +121,6 @@ pre {
   vertical-align: top;
 }
 
-@media only screen and (max-width: 40rem) {
-  .lesson-body {
-    margin-top: 9rem;
-  }
-  img {
-    width: 95%;
-  }
-}
-
 footer {
   padding: 0.2rem 0;
   display: flex;
@@ -143,5 +135,42 @@ footer {
 
 footer a {
   background: none;
+}
+
+.left-side,
+.right-side {
+  display: inline-block;
+}
+
+.left-side {
+  width: 50%;
+  float: left;
+}
+
+.right-side {
+  float: right;
+  width: 50%;
+  position: fixed;
+}
+
+.right-side img {
+  height: 75vh;
+}
+
+/************ media queries ***************/
+@media only screen and (max-width: 40rem) {
+  .lesson-body {
+    margin-top: 9rem;
+  }
+  img {
+    width: 95%;
+  }
+  .left-side,
+  .right-side {
+    display: block;
+    width: 100%;
+    position: static;
+    float: none;
+  }
 }
 /*# sourceMappingURL=main.css.map */

@@ -21,17 +21,18 @@ header {
   background: $light-grey;
   box-shadow: 0 2px 8px rgba(0, 0, 0, .2);
   padding-bottom: 0.3rem;
-  width: 100%; 
+  width: 100%;
   transition: 0.5s; 
   
   h1, a {
-    margin-left: 5%;
+    margin-left: 3%;
   }
 }
 
 main {
-  padding-left: 5%;
+  padding-left: 3%;
   overflow-y: scroll;
+  max-width: 1200px;
 }
 
 h1 {
@@ -123,16 +124,7 @@ pre {
   vertical-align: top;
 }
 
-@media only screen and (max-width: 40rem) {
 
-  .lesson-body {
-    margin-top: 9rem;
-  
-  }
-  img {
-    width: 95%;
-  }
-}
 footer {
   padding: 0.2rem 0;
   display: flex;
@@ -148,3 +140,46 @@ footer {
     background: none;
   }
 }
+
+.left-side, 
+.right-side {
+  display: inline-block;
+}
+
+.left-side {
+  width: 50%;
+  float: left;
+}
+
+.right-side {
+  float: right;
+  width: 50%;
+  position: fixed;
+  
+  img {
+    height: 75vh;
+  }
+}
+
+/************ media queries ***************/ 
+@media only screen and (max-width: 40rem) {
+
+  .lesson-body {
+    margin-top: 9rem;
+  
+  }
+  img {
+    width: 95%;
+  }
+
+  .left-side, 
+  .right-side {
+    display: block;
+    width: 100%;
+    position: static;
+    float: none;
+  }
+}
+
+
+
