@@ -179,5 +179,8 @@ footer a {
     position: static;
     float: none;
   }
+  .right-side {
+    text-align: center;
+  }
 }
 /*# sourceMappingURL=main.css.map */
