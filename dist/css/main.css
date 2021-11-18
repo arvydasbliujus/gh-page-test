@@ -1,10 +1,11 @@
 * {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
-  margin: 5rem 0 0;
-  padding: 0 0 150px 0;
+  margin: 5rem 0 0 0;
+  padding: 0 0 2rem;
 }
 
 html {
@@ -28,6 +29,7 @@ header h1, header a {
 
 main {
   padding-left: 5%;
+  overflow-y: scroll;
 }
 
 h1 {
@@ -125,5 +127,21 @@ pre {
   img {
     width: 95%;
   }
+}
+
+footer {
+  padding: 0.2rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #727272;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-size: 0.7rem;
+}
+
+footer a {
+  background: none;
 }
 /*# sourceMappingURL=main.css.map */

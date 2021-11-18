@@ -2,10 +2,11 @@ $light-grey: #f1f1f1;
 $dark-blue: #00008b;
 * {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 body {
-  margin: 5rem 0 0;
-  padding: 0 0 150px 0;
+  margin: 5rem 0 0 0;
+  padding: 0 0 2rem;
 
 }
 
@@ -30,6 +31,7 @@ header {
 
 main {
   padding-left: 5%;
+  overflow-y: scroll;
 }
 
 h1 {
@@ -129,5 +131,20 @@ pre {
   }
   img {
     width: 95%;
+  }
+}
+footer {
+  padding: 0.2rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: darken($color: $light-grey, $amount: 50%);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-size: 0.7rem;
+
+  a{
+    background: none;
   }
 }
